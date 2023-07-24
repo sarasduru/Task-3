@@ -1,0 +1,110 @@
+﻿
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right:10px;
+    margin-left:10px;
+    color:black;
+
+    text-transform:uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius:60px;
+    outline:none;
+    margin-right:-35px;
+    border:2px solid rgb(248,26,92);
+}
+.btn0{
+    height:40px;
+    width:40%;
+    outline:none;
+    border:none;
+    background:rgb(248,26,92);
+    color:white;
+    font-weight:700;
+    border-radius:60px;
+    
+}
+.main .carousel-inner {
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    background-color: aqua;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248,26,92);
+    color:white;
+    font-weight:700;
+    border-radius:60px;
+}
+.btn1:hover{
+    background-color:rgb(233,15,77);
+    transition:0.5s;
+}
+h1{
+    font-weight:700;
+}
+.card:hover {
+    -webkit-box-shadow: -1px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 25px -4px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 25px -4px rgba(0,0,0,0.75);
+    transition:0.5s;
+}
+.contact {
+    background-color:lawngreen;
+}
+.news{
+    background-color:black;
+    color:white;
+}
+.btn2{
+    height:45px;
+    width:100px;
+    background:white;
+    margin-left:-10px;
+    border:2px solid white;
+    font-weight:600;
+}
+.news input{
+    height:45px;
+    width:55%;
+    border:2px solid white;
+    outline:none;
+    background:black;
+    color:white;
+    margin-top:20px;
+    font-weight:600;
+}
+news::placeholder{
+    color:white;
+}
+.news p{
+    margin:0;
+}
+.fa{
+    font-size:2.5rem;
+    cursor:pointer;
+    padding-right:5px;
+}
